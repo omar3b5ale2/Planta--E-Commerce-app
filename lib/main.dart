@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import ' Presentation Layer/views/details_screen.dart';
+import ' Presentation Layer/views/purchase_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DetailsScreen (),
+      home: const PurchaseScreen (),
       debugShowCheckedModeBanner: false,
     );
   }
